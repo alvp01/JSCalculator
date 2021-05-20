@@ -1,0 +1,53 @@
+.btn, .screen, .calculator-body, .container {
+  display: flex;
+}
+
+.btn {
+  justify-content: center;
+  align-items: center;
+}
+
+.calculator-body {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.btn, .screen {
+  height: 16%;
+}
+
+.btn, .screen {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100wv;
+  justify-content: center;
+}
+
+.calculator-body {
+  width: 1000px;
+  height: 1750px;
+}
+
+.screen {
+  align-items: center;
+  justify-content: end;
+  background-color: black;
+  color: white;
+  width: 100%;
+}
+
+.btn {
+  width: 25%;
+}
+
+.btn-zero {
+  width: 75%;
+}
+
+.btn-clear {
+  width: 50%;
+}
+
+/*# sourceMappingURL=style.css.map */
