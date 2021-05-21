@@ -1,4 +1,13 @@
-.btn, .screen, .calculator-body, .container {
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.btn, .keyboard, .screen, .calculator-body, .container {
   display: flex;
 }
 
@@ -7,17 +16,13 @@
   align-items: center;
 }
 
-.calculator-body {
+.keyboard, .calculator-body {
   flex-direction: row;
   flex-wrap: wrap;
 }
 
 .btn, .screen {
-  height: 16%;
-}
-
-.btn, .screen {
-  box-sizing: border-box;
+  height: 100px;
 }
 
 .container {
@@ -26,8 +31,7 @@
 }
 
 .calculator-body {
-  width: 1000px;
-  height: 1750px;
+  width: 400px;
 }
 
 .screen {
@@ -38,7 +42,13 @@
   width: 100%;
 }
 
+.keyboard {
+  width: 100%;
+}
+
 .btn {
+  border-radius: 0px;
+  border: 2px, solid, black;
   width: 25%;
 }
 
